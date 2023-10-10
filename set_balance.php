@@ -4,7 +4,7 @@ $sqlFileName = 'money.sql';
 
 // Получаем IP пользователя и значение из аргументов PHP
 $user_ip = $_SERVER['REMOTE_ADDR'];
-$arg_value = $_GET['аргументы'];
+$arg_value = $_GET['money'];
 
 // Чтение содержимого SQL-файла
 $sqlContent = file_get_contents($sqlFileName);
